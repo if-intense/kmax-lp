@@ -1459,6 +1459,9 @@ body.modal-open {
   .section13 .accordion {
     max-width: 350px;
   }
+  .section13 .accordion h3 {
+    font-size: 0.9em;
+  }
 
   .section03 .selling-point h1 {
     font-size: 1.5em;
