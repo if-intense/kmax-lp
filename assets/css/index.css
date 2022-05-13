@@ -789,6 +789,7 @@ body.modal-open {
   box-shadow: 1pxx 3px 6px rgba(0, 0, 0, 0.33);
   border: 1px solid #323232;
   border-radius: 5px;
+  text-align: center;
 }
 .section13 .accordion h2:hover {
   background-color: #bbbbbb;
@@ -834,6 +835,11 @@ body.modal-open {
 .section13 .accordion .desc a span {
   font-weight: bold;
   text-decoration: underline;
+}
+.section13 .accordion .desc a strong {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 0.9em;
 }
 .section13 .accordion .desc a em {
   font-size: 1.5em;
@@ -1121,6 +1127,10 @@ body.modal-open {
   .section09 .sect09-sect .overlay-text h3 {
     font-size: 2em;
   }
+
+  .section13 .accordion {
+    max-width: 480px;
+  }
 }
 @media screen and (max-width: 532px) {
   .section04 .columns-wrapper .column .container .outer .category .category-text {
@@ -1255,15 +1265,27 @@ body.modal-open {
   .section06 .text h4 em {
     font-size: 1.2em;
   }
+
+  .section13 .accordion {
+    max-width: 440px;
+  }
 }
 @media screen and (max-width: 466px) {
   .parallax-bg-bottom .container h6 span {
     font-size: 0.9em;
   }
+
+  .section13 .accordion {
+    max-width: 420px;
+  }
 }
 @media screen and (max-width: 444px) {
   .br_on {
     display: block;
+  }
+
+  .section13 .accordion {
+    max-width: 400px;
   }
 
   .section04 .columns-wrapper .column .container .category .category-text {
@@ -1298,6 +1320,10 @@ body.modal-open {
   }
   .section02 .info p span {
     font-size: 1.25em;
+  }
+
+  .section13 .accordion {
+    max-width: 390px;
   }
 
   .section04 .columns-wrapper .column h6 {
@@ -1388,6 +1414,10 @@ body.modal-open {
     font-size: 0.95em;
   }
 
+  .section13 .accordion {
+    max-width: 380px;
+  }
+
   .bottom .container .row .text-area h5 {
     font-size: 1.1em;
   }
@@ -1412,6 +1442,10 @@ body.modal-open {
   }
   .section02 .info p span {
     font-size: 1.25em;
+  }
+
+  .section13 .accordion {
+    max-width: 350px;
   }
 
   .section03 .selling-point h1 {

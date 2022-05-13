@@ -1031,6 +1031,7 @@ body.modal-open {
     box-shadow: 1pxx 3px 6px rgba(0,0,0,0.33);
     border:1px solid rgb(50,50,50);
     border-radius: 5px;
+    text-align: center;
   }
 
   .accordion h2:hover {
@@ -1084,6 +1085,12 @@ body.modal-open {
   .accordion .desc a span {
     font-weight: bold;
     text-decoration: underline;
+  }
+
+  .accordion .desc a strong {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 0.9em;
   }
 
   .accordion .desc a em {
@@ -1585,6 +1592,12 @@ body.modal-open {
       }
     }
   }
+
+  .section13 {
+   .accordion {
+     max-width: 480px;
+   } 
+  }
 }
 
 @media screen and (max-width: 532px) {
@@ -1801,6 +1814,12 @@ body.modal-open {
       }
     }
   }
+
+  .section13 {
+    .accordion {
+      max-width: 440px;
+    } 
+   }
 }
 
 @media screen and (max-width: 466px) {
@@ -1813,12 +1832,24 @@ body.modal-open {
       }
     }
   }
+
+  .section13 {
+    .accordion {
+      max-width: 420px;
+    } 
+   }
 }
 
 @media screen and (max-width: 444px) {
   .br_on {
     display: block;
   }
+
+  .section13 {
+    .accordion {
+      max-width: 400px;
+    } 
+   }
 
   .section04 {
     .columns-wrapper {
@@ -1892,6 +1923,12 @@ body.modal-open {
       }
     }
   }
+
+  .section13 {
+    .accordion {
+      max-width: 390px;
+    } 
+   }
 
   .section04 {
     .columns-wrapper {
@@ -2060,6 +2097,12 @@ body.modal-open {
     }
   }
 
+  .section13 {
+    .accordion {
+      max-width: 380px;
+    } 
+   }
+
   .bottom {
     .container {
       .row {
@@ -2122,6 +2165,12 @@ body.modal-open {
       }
     }
   }
+
+  .section13 {
+    .accordion {
+      max-width: 350px;
+    } 
+   }
 
   .section03 {
     .selling-point {
