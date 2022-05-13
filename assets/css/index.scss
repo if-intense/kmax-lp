@@ -1039,7 +1039,7 @@ body.modal-open {
   }
 
   .accordion h3 {
-    padding:20px 30px;
+    padding:20px 10px;
     background-color: rgb(255, 255, 255);
     font-size: 1em;
     color: #000;
@@ -1089,8 +1089,20 @@ body.modal-open {
 
   .accordion .desc a strong {
     font-style: italic;
-    font-weight: normal;
-    font-size: 0.9em;
+    font-weight: bold;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    // text-decoration: underline;
+  }
+
+  .accordion .desc a strong:before {
+    content: '~';
+    padding-left: 5px;
+  }
+
+  .accordion .desc a strong:after {
+    content: '~';
+    padding-right: 5px;
   }
 
   .accordion .desc a em {
@@ -1848,6 +1860,9 @@ body.modal-open {
   .section13 {
     .accordion {
       max-width: 400px;
+      h1 {
+        font-size:1.2em;
+      }
     } 
    }
 

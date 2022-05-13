@@ -795,7 +795,7 @@ body.modal-open {
   background-color: #bbbbbb;
 }
 .section13 .accordion h3 {
-  padding: 20px 30px;
+  padding: 20px 10px;
   background-color: white;
   font-size: 1em;
   color: #000;
@@ -838,8 +838,17 @@ body.modal-open {
 }
 .section13 .accordion .desc a strong {
   font-style: italic;
-  font-weight: normal;
-  font-size: 0.9em;
+  font-weight: bold;
+  font-size: 1.25em;
+  line-height: 1.5em;
+}
+.section13 .accordion .desc a strong:before {
+  content: "~";
+  padding-left: 5px;
+}
+.section13 .accordion .desc a strong:after {
+  content: "~";
+  padding-right: 5px;
 }
 .section13 .accordion .desc a em {
   font-size: 1.5em;
@@ -1286,6 +1295,9 @@ body.modal-open {
 
   .section13 .accordion {
     max-width: 400px;
+  }
+  .section13 .accordion h1 {
+    font-size: 1.2em;
   }
 
   .section04 .columns-wrapper .column .container .category .category-text {
