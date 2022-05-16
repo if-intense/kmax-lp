@@ -8,7 +8,7 @@ var vm = new Vue({
             stylist: "小田嶋 信人",
             genre: "スタディ",
             text: "シルエットを綺麗に見せる<br>ニューベーシックショート",
-            thumbnail: "https://kamismax.kamisma.com/service2/img/videoimg/STUDY_ABBEY_ODASHIMANOBUTO.jpg",
+            thumbnail: "service2/img/videoimg/STUDY_ABBEY_ODASHIMANOBUTO.jpg",
             imgBefore: "assets/images/before-after/kmax_before&after_01-after.png",
             imgAfter: "assets/images/before-after/kmax_before&after_01-before.png",
             url: "#"
@@ -19,7 +19,7 @@ var vm = new Vue({
             stylist: "松永 英樹",
             genre: "スタディ",
             text: "スタイルチェンジのポイント理解！<br>重めのグラボブからショートグラに簡単チェンジ",
-            thumbnail: "https://kamismax.kamisma.com/service2/img/videoimg/STUDY_ABBEY_MATSUNAGAHIDEKI.jpg",
+            thumbnail: "service2/img/videoimg/STUDY_ABBEY_MATSUNAGAHIDEKI.jpg",
             imgBefore: "assets/images/before-after/kmax_before&after_02-after.png",
             imgAfter: "assets/images/before-after/kmax_before&after_02-before.png",
             url: "#"
@@ -30,7 +30,7 @@ var vm = new Vue({
             stylist: "堀内 邦雄",
             genre: "スタディ",
             text: "フォルムを綺麗に見せる、<br>骨格補正を用いたトレンドツーセクション",
-            thumbnail: "https://kamismax.kamisma.com/service2/img/videoimg/TREND_PEEK-A-BOO_HORIUCHIKUNIO.jpg",
+            thumbnail: "service2/img/videoimg/TREND_PEEK-A-BOO_HORIUCHIKUNIO.jpg",
             imgBefore: "assets/images/before-after/kmax_before&after_03-after.png",
             imgAfter: "assets/images/before-after/kmax_before&after_03-before.png",
             url: "#"
@@ -44,7 +44,7 @@ var vm = new Vue({
             stylist: "エザキ ヨシタカ",
             genre: "スタディ",
             text: "後頭部のフォルムを自然に見せる<br>簡単ショートヘア",
-            thumbnail: "https://kamismax.kamisma.com/service2/img/videoimg/TREND_grico_EZAKIYOSHITAKA.jpg",
+            thumbnail: "service2/img/videoimg/TREND_grico_EZAKIYOSHITAKA.jpg",
             imgBefore: "assets/images/before-after/kmax_before&after_04-after.png",
             imgAfter: "assets/images/before-after/kmax_before&after_04-before.png",
             url: "#"
@@ -56,7 +56,7 @@ var vm = new Vue({
             stylist: "澤野 秀樹",
             genre: "スタディ",
             text: "骨格をキレイにみせるマッシュショート",
-            thumbnail: "https://kamismax.kamisma.com/service2/img/videoimg/TREND_ANNE_SAWANOHIDEKI.jpg",
+            thumbnail: "service2/img/videoimg/TREND_ANNE_SAWANOHIDEKI.jpg",
             imgBefore: "assets/images/before-after/kmax_before&after_05-after.png",
             imgAfter: "assets/images/before-after/kmax_before&after_05-before.png",
             url: "#"
@@ -68,7 +68,7 @@ var vm = new Vue({
             stylist: "中村 トメ吉",
             genre: "スタディ",
             text: "機能性と再現性を実現する、<br>骨格を活かしたボックス型スクエアショート",
-            thumbnail: "https://kamismax.kamisma.com/service2/img/videoimg/STUDY_GOALD_NAKAMURATOMEKITI.jpg",
+            thumbnail: "service2/img/videoimg/STUDY_GOALD_NAKAMURATOMEKITI.jpg",
             imgBefore: "assets/images/before-after/kmax_before&after_06-after.png",
             imgAfter: "assets/images/before-after/kmax_before&after_06-before.png",
             url: "#"
@@ -83,7 +83,7 @@ var vm = new Vue({
             stylist: "坂狩 トモタカ",
             genre: "スタディ",
             text: "長さを変えずに女性像を変える必見テクニック",
-            thumbnail: "https://kamismax.kamisma.com/service2/img/videoimg/TREND_SHEA_SAKAGARITOMOTAKA.jpg",
+            thumbnail: "service2/img/videoimg/TREND_SHEA_SAKAGARITOMOTAKA.jpg",
             imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
             imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
             url: "#"
@@ -95,7 +95,7 @@ var vm = new Vue({
             stylist: "石川 ヒデノリ",
             genre: "スタディ",
             text: "外国人風スタイルを完全攻略！<br>suburbia流のノウハウを一挙公開！",
-            thumbnail: "https://kamismax.kamisma.com/service2/img/videoimg/STUDY_suburbia_ISHIKAWAHIDENORI.jpg",
+            thumbnail: "service2/img/videoimg/STUDY_suburbia_ISHIKAWAHIDENORI.jpg",
             imgBefore: "assets/images/before-after/kmax_before&after_08-after.png",
             imgAfter: "assets/images/before-after/kmax_before&after_08-before.png",
             url: "#"
@@ -110,7 +110,7 @@ var vm = new Vue({
             stylist: "田中 衛",
             genre: "スタディ",
             text: "カウンセリングから導く<br>スタイル提案とテクニック",
-            thumbnail: "https://kamismax.kamisma.com",
+            thumbnail: "service2/img/videoimg/STUDY_NORAJourney_TANAKAMAMORU.jpg",
             imgBefore: "assets/images/before-after/kmax_before&after_09-after.png",
             imgAfter: "assets/images/before-after/kmax_before&after_09-before.png",
             url: "#"
@@ -122,7 +122,7 @@ var vm = new Vue({
             stylist: "森田 怜",
             genre: "スタディ",
             text: "人気の顔まわりスタイル・前髪から繋ぐ<br>レイヤーカット&アレンジ",
-            thumbnail: "https://kamismax.kamisma.com",
+            thumbnail: "service2/img/videoimg/TREND_Ccrew_MORITARYO.jpg",
             imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
             imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
             url: "#"
@@ -137,7 +137,7 @@ var vm = new Vue({
             stylist: "SAKURA",
             genre: "スタディ",
             text: "ネガティブ要素を取り除く、<br>スタイル提案の極意！",
-            thumbnail: "https://kamismax.kamisma.com",
+            thumbnail: "service2/img/videoimg/STUDY_Cocoon_SAKURA.jpg",
             imgBefore: "assets/images/before-after/kmax_before&after_11-after.png",
             imgAfter: "assets/images/before-after/kmax_before&after_11-before.png",
             url: "#"
@@ -149,7 +149,7 @@ var vm = new Vue({
             stylist: "田中 衛",
             genre: "スタディ",
             text: "カウンセリングから導く<br>スタイル提案とテクニック",
-            thumbnail: "https://kamismax.kamisma.com",
+            thumbnail: "service2/img/videoimg/STUDY_NORAJourney_TANAKAMAMORU.jpg",
             imgBefore: "assets/images/before-after/kmax_before&after_09-after.png",
             imgAfter: "assets/images/before-after/kmax_before&after_09-before.png",
             url: "#"
@@ -163,7 +163,7 @@ var vm = new Vue({
             stylist: "赤松 美和",
             genre: "スタディ",
             text: "コンプレックスをプラスに変える、<br>似合わせテクニック",
-            thumbnail: "https://kamismax.kamisma.com",
+            thumbnail: "service2/img/videoimg/TREND_VeLO_AKAMATSUMIWA.jpg",
             imgBefore: "assets/images/before-after/kmax_before&after_13-after.png",
             imgAfter: "assets/images/before-after/kmax_before&after_13-before.png",
             url: "#"
@@ -174,7 +174,7 @@ var vm = new Vue({
             stylist: "小谷 英智香",
             genre: "スタディ",
             text: "トータルコーディネイトで魅せる<br>オマージュスタイル",
-            thumbnail: "https://kamismax.kamisma.com",
+            thumbnail: "service2/img/videoimg/TREND_salondakota_KOTANIHIDECHIKA.jpg",
             imgBefore: "assets/images/before-after/kmax_before&after_14-after.png",
             imgAfter: "assets/images/before-after/kmax_before&after_14-before.png",
             url: "#"
@@ -189,7 +189,7 @@ var vm = new Vue({
             stylist: "石川 ヒデノリ",
             genre: "スタディ",
             text: "外国人風スタイルを完全攻略！<br>suburbia流のノウハウを一挙公開！",
-            thumbnail: "https://kamismax.kamisma.com",
+            thumbnail: "service2/img/videoimg/STUDY_suburbia_KUROYANAGITSUYOSHI.jpg",
             imgBefore: "assets/images/before-after/kmax_before&after_08-after.png",
             imgAfter: "assets/images/before-after/kmax_before&after_08-before.png",
             url: "#"
@@ -201,6 +201,7 @@ var vm = new Vue({
             stylist: "森田 怜",
             genre: "スタディ",
             text: "人気の顔まわりスタイル・前髪から<br>繋ぐレイヤーカット&アレンジ",
+            thumbnail: "service2/img/videoimg/TREND_Ccrew_MORITARYO.jpg",
             imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
             imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
             url: "#"
@@ -215,7 +216,7 @@ var vm = new Vue({
             stylist: "小田嶋 信人",
             genre: "スタディ",
             text: "シルエットを綺麗に見せる<br>ニューベーシックショート",
-            thumbnail: "https://kamismax.kamisma.com",
+            thumbnail: "service2/img/videoimg/STUDY_ABBEY_ODASHIMANOBUTO.jpg",
             imgBefore: "assets/images/before-after/kmax_before&after_01-after.png",
             imgAfter: "assets/images/before-after/kmax_before&after_01-before.png",
             url: "#"
@@ -227,7 +228,7 @@ var vm = new Vue({
             stylist: "堀江 昌樹",
             genre: "スタディ",
             text: "カット×「TOKIKATA」でつくる<br>モード可愛いミニボブスタイル",
-            thumbnail: "https://kamismax.kamisma.com",
+            thumbnail: "service2/img/videoimg/TREND_JENO_HORIEMASAKI.jpg",
             imgBefore: "assets/images/before-after/kmax_before&after_18-after.png",
             imgAfter: "assets/images/before-after/kmax_before&after_18-before.png",
             url: "#"
@@ -239,7 +240,7 @@ var vm = new Vue({
             stylist: "VAN",
             genre: "スタディ",
             text: "ノンブローカットでつくるシースルーマッシュ",
-            thumbnail: "https://kamismax.kamisma.com",
+            thumbnail: "service2/img/videoimg/STUDY_Cocoon_VAN.jpg",
             imgBefore: "assets/images/before-after/kmax_before&after_19-after.png",
             imgAfter: "assets/images/before-after/kmax_before&after_19-before.png",
             url: "#"
@@ -254,7 +255,7 @@ var vm = new Vue({
             stylist: "松永 英樹",
             genre: "スタディ",
             text: "ウルフレイヤーで魅せる技術と思考",
-            thumbnail: "https://kamismax.kamisma.com",
+            thumbnail: "service2/img/videoimg/TREND_ABBEY_MATSUNAGAHIDEKI.jpg",
             imgBefore: "assets/images/before-after/kmax_before&after_20-after.png",
             imgAfter: "assets/images/before-after/kmax_before&after_20-before.png",
             url: "#"
@@ -266,7 +267,7 @@ var vm = new Vue({
             stylist: "福井 達真",
             genre: "スタディ",
             text: "レイヤーボブ×クリエイティブワーク",
-            thumbnail: "https://kamismax.kamisma.com",
+            thumbnail: "service2/img/videoimg/TREND_PEEK-A-BOO_FUKUITATSUMASA.jpg",
             imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
             imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
             url: "#"
@@ -281,7 +282,7 @@ var vm = new Vue({
                 stylist: "kazu",
                 genre: "スタディ",
                 text: "なじみ感・フィット感をつくりだす、<br>一発切りショートスタイル",
-                thumbnail: "https://kamismax.kamisma.com",
+                thumbnail: "service2/img/videoimg/TREND_CARNIVAL_kazu.jpg",
                 imgBefore: "assets/images/before-after/kmax_before&after_22-after.png",
                 imgAfter: "assets/images/before-after/kmax_before&after_22-before.png",
                 url: "#"
@@ -293,7 +294,7 @@ var vm = new Vue({
                 stylist: "池戸 裕二",
                 genre: "スタディ",
                 text: "カットで魅せる「トーキョージェンダーレス」",
-                thumbnail: "https://kamismax.kamisma.com",
+                thumbnail: "service2/img/videoimg/TREND_MINX_IKEDOYUJI.jpg",
                 imgBefore: "assets/images/before-after/kmax_before&after_23-after.png",
             imgAfter: "assets/images/before-after/kmax_before&after_23-before.png",
                 url: "#"
@@ -308,7 +309,7 @@ var vm = new Vue({
                 stylist: "エザキ ヨシタカ",
                 genre: "スタディ",
                 text: "後頭部のフォルムを自然に見せる<br>簡単ショートヘア",
-                thumbnail: "https://kamismax.kamisma.com",
+                thumbnail: "service2/img/videoimg/TREND_grico_EZAKIYOSHITAKA.jpg",
                 imgBefore: "assets/images/before-after/kmax_before&after_04-after.png",
             imgAfter: "assets/images/before-after/kmax_before&after_04-before.png",
                 url: "#"
@@ -320,7 +321,7 @@ var vm = new Vue({
                 stylist: "小田嶋 信人",
                 genre: "スタディ",
                 text: "シルエットを綺麗に見せる<br>ニューベーシックショート",
-                thumbnail: "https://kamismax.kamisma.com",
+                thumbnail: "service2/img/videoimg/STUDY_ABBEY_ODASHIMANOBUTO.jpg",
                 imgBefore: "assets/images/before-after/kmax_before&after_01-after.png",
                 imgAfter: "assets/images/before-after/kmax_before&after_01-before.png",
                 url: "#"
@@ -335,7 +336,7 @@ var vm = new Vue({
                 stylist: "澤野 秀樹",
                 genre: "スタディ",
                 text: "骨格をキレイにみせるマッシュショート",
-                thumbnail: "https://kamismax.kamisma.com",
+                thumbnail: "service2/img/videoimg/TREND_ANNE_SAWANOHIDEKI.jpg",
                 imgBefore: "assets/images/before-after/kmax_before&after_05-after.png",
                 imgAfter: "assets/images/before-after/kmax_before&after_05-before.png",
                 url: "#"
@@ -347,7 +348,7 @@ var vm = new Vue({
                 stylist: "堀内 邦雄",
                 genre: "スタディ",
                 text: "フォルムを綺麗に見せる、<br>骨格補正を用いたトレンドツーセクション",
-                thumbnail: "https://kamismax.kamisma.com",
+                thumbnail: "service2/img/videoimg/TREND_PEEK-A-BOO_HORIUCHIKUNIO.jpg",
                 imgBefore: "assets/images/before-after/kmax_before&after_27-after.png",
                 imgAfter: "assets/images/before-after/kmax_before&after_27-before.png",
                 url: "#"
@@ -359,7 +360,7 @@ var vm = new Vue({
                 stylist: "中村 トメ吉",
                 genre: "スタディ",
                 text: "機能性と再現性を実現する、<br>骨格を活かしたボックス型スクエアショート",
-                thumbnail: "https://kamismax.kamisma.com",
+                thumbnail: "service2/img/videoimg/STUDY_GOALD_NAKAMURATOMEKITI.jpg",
                 imgBefore: "assets/images/before-after/kmax_before&after_06-after.png",
             imgAfter: "assets/images/before-after/kmax_before&after_06-before.png",
                 url: "#"
@@ -374,7 +375,7 @@ var vm = new Vue({
                 stylist: "中村 トメ吉",
                 genre: "スタディ",
                 text: "機能性と再現性を実現する、<br>骨格を活かしたボックス型スクエアショート",
-                thumbnail: "https://kamismax.kamisma.com",
+                thumbnail: "service2/img/videoimg/STUDY_GOALD_NAKAMURATOMEKITI.jpg",
                 imgBefore: "assets/images/before-after/kmax_before&after_06-after.png",
             imgAfter: "assets/images/before-after/kmax_before&after_06-before.png",
                 url: "#"
@@ -386,7 +387,7 @@ var vm = new Vue({
                 stylist: "KUNI",
                 genre: "スタディ",
                 text: "スキンフェードとダレルパーマでつくる<br>フルバックショート",
-                thumbnail: "https://kamismax.kamisma.com",
+                thumbnail: "service2/img/videoimg/STUDY_MensLapis_KUNI.jpg",
                 imgBefore: "assets/images/before-after/kmax_before&after_55-after.png",
                 imgAfter: "assets/images/before-after/kmax_before&after_55-before.png",
                 url: "#"
@@ -398,7 +399,7 @@ var vm = new Vue({
                 stylist: "齋藤 正太",
                 genre: "スタディ",
                 text: "トータルケアで創り上げる<br>ジェンダーレススタイル",
-                thumbnail: "https://kamismax.kamisma.com",
+                thumbnail: "service2/img/videoimg/TREND_syn_SAITOSYOTA.jpg",
                 imgBefore: "assets/images/before-after/kmax_before&after_31-after.png",
             imgAfter: "assets/images/before-after/kmax_before&after_31-before.png",
                 url: "#"

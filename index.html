@@ -189,7 +189,7 @@
                     <img :src="menu.imgAfter" alt="After" class="img-fluid">
                       </div>
                     </div> -->
-                    <img :src="menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
                     <br>
                     <strong>{{menu.genre}}</strong><br>
@@ -206,9 +206,18 @@
             <div>
               <section v-for="menu in designMenus">
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
-                <div class="desc">
+                <div class="desc" v-if="menu.imgBefore == null && menu.imgAfter == null">
                   <a v-bind:href="menu.url">
-                    <img :src="menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    
+                    <br>
+                    <strong>{{menu.genre}}</strong><br>
+                    <span v-html="menu.text"></span><br>
+                  </a>
+                </div>
+                <div class="desc" v-else>
+                  <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
                     <br>
                     <strong>{{menu.genre}}</strong><br>
@@ -224,9 +233,18 @@
             <div>
               <section v-for="menu in mediumCuts">
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
-                <div class="desc">
+                <div class="desc" v-if="menu.imgBefore == null && menu.imgAfter == null">
                   <a v-bind:href="menu.url">
-                    <img :src="menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    
+                    <br>
+                    <strong>{{menu.genre}}</strong><br>
+                    <span v-html="menu.text"></span><br>
+                  </a>
+                </div>
+                <div class="desc" v-else>
+                  <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
                     <br>
                     <strong>{{menu.genre}}</strong><br>
@@ -243,9 +261,18 @@
             <div>
               <section v-for="menu in longCuts">
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
-                <div class="desc">
+                <div class="desc" v-if="menu.imgBefore == null && menu.imgAfter == null">
                   <a v-bind:href="menu.url">
-                    <img :src="menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    
+                    <br>
+                    <strong>{{menu.genre}}</strong><br>
+                    <span v-html="menu.text"></span><br>
+                  </a>
+                </div>
+                <div class="desc" v-else>
+                  <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
                     <br>
                     <strong>{{menu.genre}}</strong><br>
@@ -262,9 +289,18 @@
             <div>
               <section v-for="menu in counselingCuts">
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
-                <div class="desc">
+                <div class="desc" v-if="menu.imgBefore == null && menu.imgAfter == null">
                   <a v-bind:href="menu.url">
-                    <img :src="menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    
+                    <br>
+                    <strong>{{menu.genre}}</strong><br>
+                    <span v-html="menu.text"></span><br>
+                  </a>
+                </div>
+                <div class="desc" v-else>
+                  <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
                     <br>
                     <strong>{{menu.genre}}</strong><br>
@@ -281,9 +317,18 @@
             <div>
               <section v-for="menu in matchingCuts">
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
-                <div class="desc">
+                <div class="desc" v-if="menu.imgBefore == null && menu.imgAfter == null">
                   <a v-bind:href="menu.url">
-                    <img :src="menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    
+                    <br>
+                    <strong>{{menu.genre}}</strong><br>
+                    <span v-html="menu.text"></span><br>
+                  </a>
+                </div>
+                <div class="desc" v-else>
+                  <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
                     <br>
                     <strong>{{menu.genre}}</strong><br>
@@ -300,9 +345,18 @@
             <div>
               <section v-for="menu in fstyleCuts">
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
-                <div class="desc">
+                <div class="desc" v-if="menu.imgBefore == null && menu.imgAfter == null">
                   <a v-bind:href="menu.url">
-                    <img :src="menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    
+                    <br>
+                    <strong>{{menu.genre}}</strong><br>
+                    <span v-html="menu.text"></span><br>
+                  </a>
+                </div>
+                <div class="desc" v-else>
+                  <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
                     <br>
                     <strong>{{menu.genre}}</strong><br>
@@ -319,9 +373,18 @@
             <div>
               <section v-for="menu in newstandardCuts">
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
-                <div class="desc">
+                <div class="desc" v-if="menu.imgBefore == null && menu.imgAfter == null">
                   <a v-bind:href="menu.url">
-                    <img :src="menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    
+                    <br>
+                    <strong>{{menu.genre}}</strong><br>
+                    <span v-html="menu.text"></span><br>
+                  </a>
+                </div>
+                <div class="desc" v-else>
+                  <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
                     <br>
                     <strong>{{menu.genre}}</strong><br>
@@ -338,9 +401,18 @@
             <div>
               <section v-for="menu in layerCuts">
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
-                <div class="desc">
+                <div class="desc" v-if="menu.imgBefore == null && menu.imgAfter == null">
                   <a v-bind:href="menu.url">
-                    <img :src="menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    
+                    <br>
+                    <strong>{{menu.genre}}</strong><br>
+                    <span v-html="menu.text"></span><br>
+                  </a>
+                </div>
+                <div class="desc" v-else>
+                  <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
                     <br>
                     <strong>{{menu.genre}}</strong><br>
@@ -357,9 +429,18 @@
             <div>
               <section v-for="menu in shortCuts">
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
-                <div class="desc">
+                <div class="desc" v-if="menu.imgBefore == null && menu.imgAfter == null">
                   <a v-bind:href="menu.url">
-                    <img :src="menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    
+                    <br>
+                    <strong>{{menu.genre}}</strong><br>
+                    <span v-html="menu.text"></span><br>
+                  </a>
+                </div>
+                <div class="desc" v-else>
+                  <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
                     <br>
                     <strong>{{menu.genre}}</strong><br>
@@ -376,9 +457,18 @@
             <div>
               <section v-for="menu in formControls">
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
-                <div class="desc">
+                <div class="desc" v-if="menu.imgBefore == null && menu.imgAfter == null">
                   <a v-bind:href="menu.url">
-                    <img :src="menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    
+                    <br>
+                    <strong>{{menu.genre}}</strong><br>
+                    <span v-html="menu.text"></span><br>
+                  </a>
+                </div>
+                <div class="desc" v-else>
+                  <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
                     <br>
                     <strong>{{menu.genre}}</strong><br>
@@ -395,9 +485,18 @@
             <div>
               <section v-for="menu in structuralCuts">
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
-                <div class="desc">
+                <div class="desc" v-if="menu.imgBefore == null && menu.imgAfter == null">
                   <a v-bind:href="menu.url">
-                    <img :src="menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    
+                    <br>
+                    <strong>{{menu.genre}}</strong><br>
+                    <span v-html="menu.text"></span><br>
+                  </a>
+                </div>
+                <div class="desc" v-else>
+                  <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
                     <br>
                     <strong>{{menu.genre}}</strong><br>
@@ -414,9 +513,18 @@
             <div>
               <section v-for="menu in mensCuts">
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
-                <div class="desc">
+                <div class="desc" v-if="menu.imgBefore == null && menu.imgAfter == null">
                   <a v-bind:href="menu.url">
-                    <img :src="menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    
+                    <br>
+                    <strong>{{menu.genre}}</strong><br>
+                    <span v-html="menu.text"></span><br>
+                  </a>
+                </div>
+                <div class="desc" v-else>
+                  <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
                     <br>
                     <strong>{{menu.genre}}</strong><br>
@@ -439,9 +547,18 @@
             <div class="colorMenu">
               <section v-for="menu in colorTechniques">
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
-                <div class="desc">
+                <div class="desc" v-if="menu.imgBefore == null && menu.imgAfter == null">
                   <a v-bind:href="menu.url">
-                    <img :src="menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    
+                    <br>
+                    <strong>{{menu.genre}}</strong><br>
+                    <span v-html="menu.text"></span><br>
+                  </a>
+                </div>
+                <div class="desc" v-else>
+                  <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
                     <br>
                     <strong>{{menu.genre}}</strong><br>
@@ -457,9 +574,18 @@
             <div class="colorMenu">
               <section v-for="menu in designColors">
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
-                <div class="desc">
+                <div class="desc" v-if="menu.imgBefore == null && menu.imgAfter == null">
                   <a v-bind:href="menu.url">
-                    <img :src="menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    
+                    <br>
+                    <strong>{{menu.genre}}</strong><br>
+                    <span v-html="menu.text"></span><br>
+                  </a>
+                </div>
+                <div class="desc" v-else>
+                  <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
                     <br>
                     <strong>{{menu.genre}}</strong><br>
@@ -475,9 +601,18 @@
             <div class="colorMenu">
               <section v-for="menu in paleColors">
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
-                <div class="desc">
+                <div class="desc" v-if="menu.imgBefore == null && menu.imgAfter == null">
                   <a v-bind:href="menu.url">
-                    <img :src="menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    
+                    <br>
+                    <strong>{{menu.genre}}</strong><br>
+                    <span v-html="menu.text"></span><br>
+                  </a>
+                </div>
+                <div class="desc" v-else>
+                  <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
                     <br>
                     <strong>{{menu.genre}}</strong><br>
@@ -493,9 +628,18 @@
             <div class="colorMenu">
               <section v-for="menu in foreignerColors">
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
-                <div class="desc">
+                <div class="desc" v-if="menu.imgBefore == null && menu.imgAfter == null">
                   <a v-bind:href="menu.url">
-                    <img :src="menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    
+                    <br>
+                    <strong>{{menu.genre}}</strong><br>
+                    <span v-html="menu.text"></span><br>
+                  </a>
+                </div>
+                <div class="desc" v-else>
+                  <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
                     <br>
                     <strong>{{menu.genre}}</strong><br>
@@ -515,9 +659,18 @@
             <div class="permMenu">
               <section v-for="menu in permTechniques">
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
-                <div class="desc">
+                <div class="desc" v-if="menu.imgBefore == null && menu.imgAfter == null">
                   <a v-bind:href="menu.url">
-                    <img :src="menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    
+                    <br>
+                    <strong>{{menu.genre}}</strong><br>
+                    <span v-html="menu.text"></span><br>
+                  </a>
+                </div>
+                <div class="desc" v-else>
+                  <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
                     <br>
                     <strong>{{menu.genre}}</strong><br>
@@ -533,9 +686,18 @@
             <div class="permMenu">
               <section v-for="menu in digitalPerms">
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
-                <div class="desc">
+                <div class="desc" v-if="menu.imgBefore == null && menu.imgAfter == null">
                   <a v-bind:href="menu.url">
-                    <img :src="menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    
+                    <br>
+                    <strong>{{menu.genre}}</strong><br>
+                    <span v-html="menu.text"></span><br>
+                  </a>
+                </div>
+                <div class="desc" v-else>
+                  <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
                     <br>
                     <strong>{{menu.genre}}</strong><br>
@@ -551,9 +713,18 @@
             <div class="permMenu">
               <section v-for="menu in checkupPermMenus">
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
-                <div class="desc">
+                <div class="desc" v-if="menu.imgBefore == null && menu.imgAfter == null">
                   <a v-bind:href="menu.url">
-                    <img :src="menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    
+                    <br>
+                    <strong>{{menu.genre}}</strong><br>
+                    <span v-html="menu.text"></span><br>
+                  </a>
+                </div>
+                <div class="desc" v-else>
+                  <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
                     <br>
                     <strong>{{menu.genre}}</strong><br>
@@ -569,9 +740,18 @@
             <div class="permMenu">
               <section v-for="menu in foreignerPermMenus">
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
-                <div class="desc">
+                <div class="desc" v-if="menu.imgBefore == null && menu.imgAfter == null">
                   <a v-bind:href="menu.url">
-                    <img :src="menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    
+                    <br>
+                    <strong>{{menu.genre}}</strong><br>
+                    <span v-html="menu.text"></span><br>
+                  </a>
+                </div>
+                <div class="desc" v-else>
+                  <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
                     <br>
                     <strong>{{menu.genre}}</strong><br>
@@ -587,9 +767,18 @@
             <div class="permMenu">
               <section v-for="menu in mensPermMenus">
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
-                <div class="desc">
+                <div class="desc" v-if="menu.imgBefore == null && menu.imgAfter == null">
                   <a v-bind:href="menu.url">
-                    <img :src="menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    
+                    <br>
+                    <strong>{{menu.genre}}</strong><br>
+                    <span v-html="menu.text"></span><br>
+                  </a>
+                </div>
+                <div class="desc" v-else>
+                  <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
                     <br>
                     <strong>{{menu.genre}}</strong><br>
@@ -609,9 +798,18 @@
             <div class="blowMenu">
               <section v-for="menu in blowMenus">
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
-                <div class="desc">
+                <div class="desc" v-if="menu.imgBefore == null && menu.imgAfter == null">
                   <a v-bind:href="menu.url">
-                    <img :src="menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    
+                    <br>
+                    <strong>{{menu.genre}}</strong><br>
+                    <span v-html="menu.text"></span><br>
+                  </a>
+                </div>
+                <div class="desc" v-else>
+                  <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
                     <br>
                     <strong>{{menu.genre}}</strong><br>
@@ -631,9 +829,18 @@
             <div class="creativeMenu">
               <section v-for="menu in creativeMenus">
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
-                <div class="desc">
+                <div class="desc" v-if="menu.imgBefore == null && menu.imgAfter == null">
                   <a v-bind:href="menu.url">
-                    <img :src="menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    
+                    <br>
+                    <strong>{{menu.genre}}</strong><br>
+                    <span v-html="menu.text"></span><br>
+                  </a>
+                </div>
+                <div class="desc" v-else>
+                  <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
                     <br>
                     <strong>{{menu.genre}}</strong><br>
@@ -653,9 +860,18 @@
             <div class="makeMenu">
               <section v-for="menu in locationMenus">
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
-                <div class="desc">
+                <div class="desc" v-if="menu.imgBefore == null && menu.imgAfter == null">
                   <a v-bind:href="menu.url">
-                    <img :src="menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    
+                    <br>
+                    <strong>{{menu.genre}}</strong><br>
+                    <span v-html="menu.text"></span><br>
+                  </a>
+                </div>
+                <div class="desc" v-else>
+                  <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
                     <br>
                     <strong>{{menu.genre}}</strong><br>
@@ -671,9 +887,18 @@
             <div class="makeMenu">
               <section v-for="menu in salonstyleMenus">
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
-                <div class="desc">
+                <div class="desc" v-if="menu.imgBefore == null && menu.imgAfter == null">
                   <a v-bind:href="menu.url">
-                    <img :src="menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    
+                    <br>
+                    <strong>{{menu.genre}}</strong><br>
+                    <span v-html="menu.text"></span><br>
+                  </a>
+                </div>
+                <div class="desc" v-else>
+                  <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
                     <br>
                     <strong>{{menu.genre}}</strong><br>
@@ -695,6 +920,9 @@
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
                 <div class="desc">
                   <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <br>
+                    <br>
                     <img :src="menu.imgBefore" alt="ビフォア" class="img-fluid">
                     <!-- <img :src="menu.imgAfter" alt="After" class="img-fluid"> -->
                     <br>
@@ -710,6 +938,9 @@
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
                 <div class="desc">
                   <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <br>
+                    <br>
                     <img :src="menu.imgBefore" alt="ビフォア" class="img-fluid">
                     <!-- <img :src="menu.imgAfter" alt="After" class="img-fluid"> -->
                     <br>
@@ -725,6 +956,9 @@
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
                 <div class="desc">
                   <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <br>
+                    <br>
                     <img :src="menu.imgBefore" alt="ビフォア" class="img-fluid">
                     <!-- <img :src="menu.imgAfter" alt="After" class="img-fluid"> -->
                     <br>
@@ -744,6 +978,9 @@
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
                 <div class="desc">
                   <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <br>
+                    <br>
                     <img :src="menu.imgBefore" alt="ビフォア" class="img-fluid">
                     <!-- <img :src="menu.imgAfter" alt="After" class="img-fluid"> -->
                     <br>
@@ -759,6 +996,9 @@
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
                 <div class="desc">
                   <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <br>
+                    <br>
                     <img :src="menu.imgBefore" alt="ビフォア" class="img-fluid">
                     <!-- <img :src="menu.imgAfter" alt="After" class="img-fluid"> -->
                     <br>
@@ -776,9 +1016,18 @@
             <div class="****Menu">
               <section v-for="menu in ****Menus">
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
-                <div class="desc">
+                <div class="desc" v-if="menu.imgBefore == null && menu.imgAfter == null">
                   <a v-bind:href="menu.url">
-                    <img :src="menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
+                    
+                    <br>
+                    <strong>{{menu.genre}}</strong><br>
+                    <span v-html="menu.text"></span><br>
+                  </a>
+                </div>
+                <div class="desc" v-else>
+                  <a v-bind:href="menu.url">
+                    <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
                     <br>
                     <strong>{{menu.genre}}</strong><br>
