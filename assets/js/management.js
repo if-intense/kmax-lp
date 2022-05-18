@@ -10,7 +10,7 @@ var vm = new Vue({
         stylist: "VAN/SAKURA",
         genre: "リアリティ",
         text: "Cocconやお互いについて<br>深掘りしていく指定対談",
-        thumbnail: "/service2/img/videoimg/REALITY_VeLO_TOBA_AKAMATSU.jpg",
+        thumbnail: "/service2/img/videoimg/REALITY_Cocoon_VAN_SAKURA.jpg",
         imgBefore: "assets/images/talks/kmx-70-cocoon.png",
         // imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
         url: "#",
