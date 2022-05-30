@@ -23,8 +23,8 @@ var vm = new Vue({
         genre: "スタディ",
         text: "レイヤーボブ×クリエイティブワーク",
         thumbnail: "service2/img/videoimg/TREND_PEEK-A-BOO_FUKUITATSUMASA.jpg",
-        imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
-        imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
+        imgBefore: "assets/images/before-after/kmax_before&after_21-after.png",
+            imgAfter: "assets/images/before-after/kmax_before&after_21-before.png",
         url: "#",
       },
       // 60

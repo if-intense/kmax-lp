@@ -61,8 +61,8 @@ var vm = new Vue({
                 genre: "スタディ",
                 text: "みやちのりよし流・<br>感覚でつくる新トレンドカラー",
                 thumbnail: "service2/img/videoimg/TREND_SHACHU_MIYACHINORIYOSHI.jpg",
-                imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
-                imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
+                imgBefore: "assets/images/before-after/kmax_before&after_36-after.png",
+            imgAfter: "assets/images/before-after/kmax_before&after_36-before.png",
                 url: "#"
                }
           ],
@@ -100,8 +100,8 @@ var vm = new Vue({
                 genre: "スタディ",
                 text: "高明度カラーをMAXキレイに見せる<br>必見ブリーチテクニック",
                 thumbnail: "service2/img/videoimg/STUDY_iLe_SAKAIMOTOKI.jpg",
-                imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
-                imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
+                imgBefore: "assets/images/before-after/kmax_before&after_39-after.png",
+            imgAfter: "assets/images/before-after/kmax_before&after_39-before.png",
                 url: "#"
                }
         ],

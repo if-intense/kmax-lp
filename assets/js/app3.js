@@ -84,8 +84,8 @@ var vm = new Vue({
             genre: "スタディ",
             text: "長さを変えずに女性像を変える必見テクニック",
             thumbnail: "service2/img/videoimg/TREND_SHEA_SAKAGARITOMOTAKA.jpg",
-            imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
-            imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
+            imgBefore: "assets/images/before-after/kmax_before&after_7-after.png",
+            imgAfter: "assets/images/before-after/kmax_before&after_7-before.png",
             url: "#"
            },
           //  8
@@ -123,8 +123,8 @@ var vm = new Vue({
             genre: "スタディ",
             text: "人気の顔まわりスタイル・前髪から繋ぐ<br>レイヤーカット&アレンジ",
             thumbnail: "service2/img/videoimg/TREND_Ccrew_MORITARYO.jpg",
-            imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
-            imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
+            imgBefore: "assets/images/before-after/kmax_before&after_10-after.png",
+            imgAfter: "assets/images/before-after/kmax_before&after_10-before.png",
             url: "#"
            },
       ],
@@ -202,8 +202,8 @@ var vm = new Vue({
             genre: "スタディ",
             text: "人気の顔まわりスタイル・前髪から<br>繋ぐレイヤーカット&アレンジ",
             thumbnail: "service2/img/videoimg/TREND_Ccrew_MORITARYO.jpg",
-            imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
-            imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
+            imgBefore: "assets/images/before-after/kmax_before&after_10-after.png",
+            imgAfter: "assets/images/before-after/kmax_before&after_10-before.png",
             url: "#"
            },
       ],
@@ -268,8 +268,8 @@ var vm = new Vue({
             genre: "スタディ",
             text: "レイヤーボブ×クリエイティブワーク",
             thumbnail: "service2/img/videoimg/TREND_PEEK-A-BOO_FUKUITATSUMASA.jpg",
-            imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
-            imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
+            imgBefore: "assets/images/before-after/kmax_before&after_21-after.png",
+            imgAfter: "assets/images/before-after/kmax_before&after_21-before.png",
             url: "#"
            }
         ],
