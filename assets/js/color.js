@@ -23,9 +23,9 @@ var vm = new Vue({
                 genre: "スタディ",
                 text: "外国人風カラーのポイントがこれでわかる！<br>suburbia流ノウハウを完全公開！",
                 thumbnail: "/service2/img/videoimg/STUDY_suburbia_KUROYANAGITSUYOSHI.jpg",
-                imgBefore: "assets/images/before-after/kmax_before&after_33-after.png",
-            imgAfter: "assets/images/before-after/kmax_before&after_33-before.png",
-                url: "#"
+                imgBefore: "assets/images/before-after/kmax_before&after_33-before.png",
+                imgAfter: "assets/images/before-after/kmax_before&after_33-after.png",
+                url: "https://kamismax.kamisma.com/service2/video/sample12.html"
                },
           ],
           designColors: [
@@ -49,9 +49,9 @@ var vm = new Vue({
                 genre: "スタディ",
                 text: "2.5Dカラーでつくる<br>アニメのキャラクタースタイル",
                 thumbnail: "service2/img/videoimg/TREND_Wille_SHIGANAOYUKI.jpg",
-                imgBefore: "assets/images/before-after/kmax_before&after_35-after.png",
-                imgAfter: "assets/images/before-after/kmax_before&after_35-before.png",
-                url: "#"
+                imgBefore: "assets/images/before-after/kmax_before&after_35-before.png",
+                imgAfter: "assets/images/before-after/kmax_before&after_35-after.png",
+                url: "https://kamismax.kamisma.com/service2/video/sample24.html"
                },
                 // 36
                {
@@ -61,9 +61,9 @@ var vm = new Vue({
                 genre: "スタディ",
                 text: "みやちのりよし流・<br>感覚でつくる新トレンドカラー",
                 thumbnail: "service2/img/videoimg/TREND_SHACHU_MIYACHINORIYOSHI.jpg",
-                imgBefore: "assets/images/before-after/kmax_before&after_36-after.png",
-            imgAfter: "assets/images/before-after/kmax_before&after_36-before.png",
-                url: "#"
+                imgBefore: "assets/images/before-after/kmax_before&after_36-before.png",
+            imgAfter: "assets/images/before-after/kmax_before&after_36-after.png",
+                url: "https://kamismax.kamisma.com/service2/video/sample01.html"
                }
           ],
         //   ■ペール系の高明度カラーを学習する
@@ -88,9 +88,9 @@ var vm = new Vue({
                 genre: "スタディ",
                 text: "ワンブリーチ・リタッチで見せる<br>ハイトーン渋谷トレンド",
                 thumbnail: "service2/img/videoimg/STUDY_Beleza_RYUSEI.jpg",
-                imgBefore: "assets/images/before-after/kmax_before&after_38-after.png",
-            imgAfter: "assets/images/before-after/kmax_before&after_38-before.png",
-                url: "#"
+                imgBefore: "assets/images/before-after/kmax_before&after_38-before.png",
+            imgAfter: "assets/images/before-after/kmax_before&after_38-after.png",
+                url: "https://kamismax.kamisma.com/service2/video/sample36.html"
                },
                 // 39
                {
@@ -100,9 +100,9 @@ var vm = new Vue({
                 genre: "スタディ",
                 text: "高明度カラーをMAXキレイに見せる<br>必見ブリーチテクニック",
                 thumbnail: "service2/img/videoimg/STUDY_iLe_SAKAIMOTOKI.jpg",
-                imgBefore: "assets/images/before-after/kmax_before&after_39-after.png",
-            imgAfter: "assets/images/before-after/kmax_before&after_39-before.png",
-                url: "#"
+                imgBefore: "assets/images/before-after/kmax_before&after_39-before.png",
+            imgAfter: "assets/images/before-after/kmax_before&after_39-after.png",
+                url: "https://kamismax.kamisma.com/service2/video/sample39.html"
                }
         ],
         foreignerColors: [
@@ -126,9 +126,9 @@ var vm = new Vue({
                 genre: "スタディ",
                 text: "外国人風カラーのポイントがこれでわかる！<br>suburbia流ノウハウを完全公開！",
                 thumbnail: "service2/img/videoimg/STUDY_suburbia_KUROYANAGITSUYOSHI.jpg",
-                imgBefore: "assets/images/before-after/kmax_before&after_33-after.png",
-            imgAfter: "assets/images/before-after/kmax_before&after_33-before.png",
-                url: "#"
+                imgBefore: "assets/images/before-after/kmax_before&after_33-before.png",
+            imgAfter: "assets/images/before-after/kmax_before&after_33-after.png",
+                url: "https://kamismax.kamisma.com/service2/video/sample12.html"
                }
         ]
 

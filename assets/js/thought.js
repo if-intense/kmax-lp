@@ -13,7 +13,7 @@ var vm = new Vue({
         thumbnail: "service2/img/videoimg/SPECIAL_OCEANTOKYO_TAKAGITAKUYA.jpg",
         imgBefore: "assets/images/talks/kmx-64-ocean-tokyo.png",
         // imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
-        url: "#",
+        url: "https://kamismax.kamisma.com/service2/video/special02.html",
       },
       // 65
       {
@@ -25,7 +25,7 @@ var vm = new Vue({
         thumbnail: "service2/img/videoimg/SPECIAL_SHIMA_NARAYUYA.jpg",
         imgBefore: "assets/images/talks/kmx-65-shima.png",
         // imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
-        url: "#",
+        url: "https://kamismax.kamisma.com/service2/video/special03.html",
       },
     ],
     // ■三つ星美容師のヒストリーを学ぶ
@@ -40,7 +40,7 @@ var vm = new Vue({
         thumbnail: "service2/img/videoimg/SPECIAL_MINX_OKAMURATAKAHISA.jpg",
         imgBefore: "assets/images/talks/kmx-66-minx.png",
         // imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
-        url: "#",
+        url: "https://kamismax.kamisma.com/service2/video/special01.html",
       },
       // 67
       {
@@ -52,7 +52,7 @@ var vm = new Vue({
         thumbnail: "service2/img/videoimg/SPECIAL_AFLOAT_MIYAMURAHIROKI.jpg",
         imgBefore: "assets/images/talks/kmx-67-afloat.png",
         // imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
-        url: "#",
+        url: "https://kamismax.kamisma.com/service2/video/special04.html",
       },
     ],
     // ■本音トークを楽しむ
@@ -67,7 +67,7 @@ var vm = new Vue({
         thumbnail: "service2/img/videoimg/VARIETY_Nakamurakai_vol1.jpg",
         imgBefore: "assets/images/talks/kmx-68-abbey-sun-ocean.png",
         // imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
-        url: "#",
+        url: "https://kamismax.kamisma.com/service2/video/variety01.html",
       },
       // 69
       {
@@ -79,7 +79,7 @@ var vm = new Vue({
         thumbnail: "service2/img/videoimg/VARIETY_SiiKA_Vol1.jpg",
         imgBefore: "assets/images/talks/kmx-69-siika.png",
         // imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
-        url: "#",
+        url: "https://kamismax.kamisma.com/service2/video/variety05.html",
       },
     ],
   },

@@ -11,9 +11,9 @@ var vm = new Vue({
         genre: "スタディ",
         text: "クリエイティブワークで魅せるビックシルエット",
         thumbnail: "service2/img/videoimg/TREND_STRAMA_TOYODANAGAHIDE.jpg",
-        imgBefore: "assets/images/before-after/kmax_before&after_58-after.png",
-        imgAfter: "assets/images/before-after/kmax_before&after_58-before.png",
-        url: "#",
+        imgBefore: "assets/images/before-after/kmax_before&after_58-before.png",
+        imgAfter: "assets/images/before-after/kmax_before&after_58-after.png",
+        url: "https://kamismax.kamisma.com/service2/video/sample11.html",
       },
       // 59
       {
@@ -23,9 +23,9 @@ var vm = new Vue({
         genre: "スタディ",
         text: "レイヤーボブ×クリエイティブワーク",
         thumbnail: "service2/img/videoimg/TREND_PEEK-A-BOO_FUKUITATSUMASA.jpg",
-        imgBefore: "assets/images/before-after/kmax_before&after_21-after.png",
-            imgAfter: "assets/images/before-after/kmax_before&after_21-before.png",
-        url: "#",
+        imgBefore: "assets/images/before-after/kmax_before&after_21-before.png",
+            imgAfter: "assets/images/before-after/kmax_before&after_21-after.png",
+        url: "https://kamismax.kamisma.com/service2/video/sample14.html",
       },
       // 60
       {
@@ -35,9 +35,9 @@ var vm = new Vue({
         genre: "スタディ",
         text: "リアルヘアメイク・撮影チームと創るクリエイティブワークの現場",
         thumbnail: "service2/img/videoimg/TREND_LONESS_KATAYAMARYOHEI.jpg",
-        imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
-        imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
-        url: "#",
+        imgBefore: "assets/images/before-after/kmax_before&after_60-before.png",
+        imgAfter: null,
+        url: "https://kamismax.kamisma.com/service2/video/sample03.html",
       },
     ]
   },

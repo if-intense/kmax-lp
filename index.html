@@ -798,13 +798,15 @@
             <div class="blowMenu">
               <section v-for="menu in blowMenus">
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
-                <div class="desc" v-if="menu.imgBefore == null && menu.imgAfter == null">
+                <div class="desc" v-if="menu.imgBefore == null || menu.imgAfter == null">
                   <a v-bind:href="menu.url">
                     <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
                     <br>
                     <strong>{{menu.genre}}</strong><br>
+                    
                     <span v-html="menu.text"></span><br>
+                    <img :src="menu.imgBefore" alt="ビフォア" class="img-fluid">
                   </a>
                 </div>
                 <div class="desc" v-else>
@@ -829,7 +831,7 @@
             <div class="creativeMenu">
               <section v-for="menu in creativeMenus">
                 <h4><strong>({{menu.id}}) {{menu.salon}}:</strong> {{menu.stylist}}</h4>
-                <div class="desc" v-if="menu.imgBefore == null && menu.imgAfter == null">
+                <div class="desc" v-if="menu.imgBefore == null || menu.imgAfter == null">
                   <a v-bind:href="menu.url">
                     <img :src="'https://kamismax.kamisma.com/'+menu.thumbnail" :alt="menu.stylist" class="img-fluid">
                     
