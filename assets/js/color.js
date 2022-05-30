@@ -20,6 +20,7 @@ var vm = new Vue({
                 id: 2,
                 salon: "suburbia",
                 stylist: "黒柳 剛",
+                genre: "スタディ",
                 text: "外国人風カラーのポイントがこれでわかる！<br>suburbia流ノウハウを完全公開！",
                 thumbnail: "/service2/img/videoimg/STUDY_suburbia_KUROYANAGITSUYOSHI.jpg",
                 imgBefore: "assets/images/before-after/kmax_before&after_33-after.png",
@@ -98,7 +99,7 @@ var vm = new Vue({
                 stylist: "酒井元樹",
                 genre: "スタディ",
                 text: "高明度カラーをMAXキレイに見せる<br>必見ブリーチテクニック",
-                thumbnail: "",
+                thumbnail: "service2/img/videoimg/STUDY_iLe_SAKAIMOTOKI.jpg",
                 imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
                 imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
                 url: "#"

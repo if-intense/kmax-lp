@@ -10,8 +10,8 @@ var vm = new Vue({
         genre: "スタディ",
         text: null,
         thumbnail: "",
-        imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
-        imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
+        imgBefore: null,
+                imgAfter: null,
         url: "#",
       },
       // 43
@@ -48,8 +48,8 @@ var vm = new Vue({
         genre: "スタディ",
         text: null,
         thumbnail: "",
-        imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
-        imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
+        imgBefore: null,
+                imgAfter: null,
         url: "#",
       },
       // 46
@@ -99,8 +99,8 @@ var vm = new Vue({
         genre: "スタディ",
         text: null,
         thumbnail: "",
-        imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
-        imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
+        imgBefore: null,
+                imgAfter: null,
         url: "#",
       },
       // 50
@@ -138,8 +138,8 @@ var vm = new Vue({
         genre: "スタディ",
         text: null,
         thumbnail: "",
-        imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
-        imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
+        imgBefore: null,
+                imgAfter: null,
         url: "#",
       },
       // 53
