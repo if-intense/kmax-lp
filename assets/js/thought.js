@@ -73,7 +73,7 @@ var vm = new Vue({
       {
         id: 2,
         salon: '"siika NIKAI/GARDEN Tokyo/Belle"',
-        stylist: "Z",
+        stylist: "サトーマリ/河野悌己/鈴木彩乃/堀内大介",
         genre: "バラエティ",
         text: "結婚や出産について<br>経営者・従業員・男女、<br>それぞれの目線で、<br>これからの在り方について<br>語り合う本音トーク編",
         thumbnail: "service2/img/videoimg/VARIETY_SiiKA_Vol1.jpg",

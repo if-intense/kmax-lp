@@ -22,7 +22,7 @@ var vm = new Vue({
             thumbnail: "service2/img/videoimg/STUDY_ABBEY_MATSUNAGAHIDEKI.jpg",
             imgBefore: "assets/images/before-after/kmax_before&after_02-before.png",
             imgAfter: "assets/images/before-after/kmax_before&after_02-after.png",
-            url: "https://kamismax.kamisma.com/service2/video/sample08.html"
+            url: "https://kamismax.kamisma.com/service2/video/sample23.html"
            },
            {
             id: 3,
@@ -189,7 +189,7 @@ var vm = new Vue({
             stylist: "石川 ヒデノリ",
             genre: "スタディ",
             text: "外国人風スタイルを完全攻略！<br>suburbia流のノウハウを一挙公開！",
-            thumbnail: "service2/img/videoimg/STUDY_suburbia_KUROYANAGITSUYOSHI.jpg",
+            thumbnail: "service2/img/videoimg/STUDY_suburbia_ISHIKAWAHIDENORI.jpg",
             imgBefore: "assets/images/before-after/kmax_before&after_08-before.png",
             imgAfter: "assets/images/before-after/kmax_before&after_08-after.png",
             url: "https://kamismax.kamisma.com/service2/video/sample07.html"

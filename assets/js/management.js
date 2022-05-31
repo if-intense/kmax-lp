@@ -25,7 +25,7 @@ var vm = new Vue({
         thumbnail: "service2/img/videoimg/REALITY_VeLO_TOBA_AKAMATSU.jpg",
         imgBefore: "assets/images/talks/kmx-71-velo.png",
         // imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
-        url: "https://kamismax.kamisma.com/service2/video/reality03.html",
+        url: "https://kamismax.kamisma.com/service2/video/reality01.html",
       },
       // 72
       {
